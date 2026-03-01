@@ -1788,7 +1788,7 @@ PR number: [args]
 **Line:** 464037 (variable `Sf8`)
 **Context:** Injected as a skill prompt for a dedicated security-focused code review agent. Uses `git diff` to obtain the full PR diff, then performs a structured vulnerability analysis. Explicitly excludes DoS, rate-limiting, and secrets-on-disk findings to reduce noise.
 
-```
+````
 ---
 allowed-tools: Bash(git diff:*), Bash(git status:*), Bash(git log:*), Bash(git show:*), Bash(git remote show:*), Read, Glob, Grep, LS, Task
 description: Complete a security review of the pending changes on the current branch
@@ -1943,7 +1943,7 @@ FALSE POSITIVE FILTERING:
 > 14. Including user-controlled content in AI system prompts is not a vulnerability.
 > 15. Regex injection. Injecting untrusted content into a regex is not a vulnerability.
 > 16. Regex DOS concerns.
-```
+````
 
 ---
 
