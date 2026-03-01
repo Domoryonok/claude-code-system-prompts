@@ -916,9 +916,9 @@ Format the comments as:
 ## Comments
 [For each comment thread:]
 - @author file.ts#line:
-  ```diff
+  ~~~diff
   [diff_hunk from the API response]
-  ```
+  ~~~
   > quoted comment text
   [any replies indented]
 
